@@ -21,9 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(
   cors({
-    // origin: "https://socialtag.onrender.com",
-    origin: "http://localhost:5173",
-    // origin: "http://10.0.0.103:5173/",
+    origin: "https://test-task-beryl.vercel.app",
 
     credentials: true,
     optionsSuccessStatus: 200,
